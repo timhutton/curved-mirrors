@@ -11,9 +11,8 @@ light_source { <0.1,0.26,0.06> color White }
 
 #declare M=7;
 camera {
-  ultra_wide_angle   
-  //angle 40
-  location <M*0.0,0,M*0.06>
+  ultra_wide_angle
+  location <M*0.1,0,M*0.06>
   look_at  <0,0,0>
 }
 
